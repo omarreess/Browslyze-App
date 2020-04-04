@@ -19,7 +19,7 @@ App Features :
 Code Features :
  - Applied The single-responsibility principle  of OOD
  - Navigation graph for fragments and app contains only one activity 
- - User data saved in realtime-database (Firebase)
+ - User data saved in real-time database (Firebase)
  - User Login using Firebase Authentication with google account
  - Api requests made with retrofit 
  - Binding views using butterknife
@@ -36,10 +36,10 @@ Code Features :
 
 
 Used libraries :
- -  Navigation graph
+ -  Firebase Authentication , real-time database , ads
+ -  Navigation
  -  Retrofit 2
  -  Butterknife
- -  Firebase auth , real-time databse , ads
  -  Circle imageview
  -  Picasso
- -  PhilJay.MPAndroidChart
+ -  MPAndroidChart
