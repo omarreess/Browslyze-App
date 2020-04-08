@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Browslyze</string>
+
+    <string name="warn_signin">Sign in for better Experience</string>
+
+    <string name="url_hint">e.g &quot; Instagram.com &quot; </string>
+
+    <string name="user_name">User Name</string>
+    <string name="user_mail">Mail Address</string>
+    <string name="signout">Sing out </string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

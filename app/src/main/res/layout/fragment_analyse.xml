@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.AnalyseUI">
+
+
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guideline8"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         app:layout_constraintGuide_percent="0.04" />
+
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guideline9"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         app:layout_constraintGuide_percent="0.17" />
+
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guideline10"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         app:layout_constraintGuide_percent="0.05" />
+
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guideline11"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="16dp"
+         android:orientation="vertical"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintGuide_percent="0.95" />
+
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guideline12"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         app:layout_constraintGuide_percent="0.21" />
+
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guideline13"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+         app:layout_constraintGuide_percent="0.73" />
+
+     <Button
+         android:id="@+id/analyse_sign_out_button"
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+
+         android:layout_marginTop="25dp"
+         android:background="@drawable/rounded_view"
+         android:fontFamily="@font/gayathrithin"
+         android:gravity="center"
+         android:text="@string/signout"
+         android:textSize="15dp"
+         app:layout_constraintBottom_toTopOf="@+id/guideline9"
+         app:layout_constraintEnd_toStartOf="@+id/guideline11"
+         app:layout_constraintStart_toStartOf="@+id/guideline13"
+         app:layout_constraintTop_toTopOf="@+id/guideline8"
+         app:layout_goneMarginBottom="25dp" />
+
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:id="@+id/analyse_imageuser"
+
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+         android:src="@drawable/profile"
+         app:layout_constraintBottom_toTopOf="@+id/guideline9"
+         app:layout_constraintEnd_toStartOf="@+id/guideline12"
+         app:layout_constraintStart_toStartOf="@+id/guideline10"
+         app:layout_constraintTop_toTopOf="@+id/guideline8" />
+
+     <TextView
+         android:id="@+id/analyse_username"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15dp"
+         android:fontFamily="sans-serif-light"
+
+         android:text="@string/user_name"
+         android:textStyle="bold"
+
+         app:layout_constraintBottom_toTopOf="@+id/guideline9"
+         app:layout_constraintStart_toStartOf="@+id/guideline12"
+         app:layout_constraintTop_toTopOf="@+id/guideline8"
+         app:layout_constraintVertical_bias="0.32999998" />
+
+     <TextView
+         android:id="@+id/analyse_usermail"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="7dp"
+         android:fontFamily="sans-serif-light"
+         android:text="@string/user_mail"
+         app:layout_constraintBottom_toTopOf="@+id/guideline9"
+         app:layout_constraintStart_toStartOf="@+id/guideline12"
+         app:layout_constraintTop_toTopOf="@+id/guideline8"
+         app:layout_constraintVertical_bias="0.58000004" />
+
+
+     <com.github.mikephil.charting.charts.PieChart
+         android:id="@+id/analyse_pieChart"
+         android:layout_width="0dp"
+         android:layout_height="0dp"
+         app:layout_constraintBottom_toTopOf="@+id/guideline14"
+         app:layout_constraintEnd_toStartOf="@+id/guideline11"
+         app:layout_constraintStart_toStartOf="@+id/guideline10"
+         app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+     <androidx.constraintlayout.widget.Guideline
+         android:id="@+id/guideline14"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         app:layout_constraintGuide_begin="715dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
