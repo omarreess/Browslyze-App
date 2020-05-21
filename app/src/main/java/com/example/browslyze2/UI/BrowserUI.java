@@ -18,6 +18,7 @@ import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.browslyze2.Logic.Authentication;
@@ -67,6 +68,8 @@ public class BrowserUI extends Fragment {
     WebView webView ;
     @BindView(R.id.browser_root)
     ConstraintLayout view;
+    @BindView(R.id.background_logo)
+    TextView logoBackground;
     CheckInternet checkInternet  ;
      Browser browser;
     RealtimeDb db ;
@@ -168,7 +171,7 @@ public class BrowserUI extends Fragment {
      public void search(Editable editable) {
          String url = editable.toString().trim();
         if (url.endsWith(".com") || url.endsWith(".net"))
-        {
+        {    logoBackground.setVisibility(View.GONE);
              String newUrl = browser.surf(url);
             mInterstitialAd.show();
             try {

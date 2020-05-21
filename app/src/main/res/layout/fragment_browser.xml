@@ -63,7 +63,9 @@
         android:fontFamily="@font/gayathrithin"
         android:gravity="center"
         android:hint="@string/url_hint"
-        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+
+        android:inputType="textUri|textWebEditText"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
