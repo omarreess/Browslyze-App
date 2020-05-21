@@ -36,7 +36,7 @@ Code Features :
 
 
 Used libraries :
- -  Firebase Authentication , real-time database , ads
+ -  Firebase Authentication , Real-time database , Ads
  -  Navigation
  -  Retrofit 2
  -  Butterknife
