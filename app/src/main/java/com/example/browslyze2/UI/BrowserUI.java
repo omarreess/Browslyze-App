@@ -153,9 +153,16 @@ public class BrowserUI extends Fragment {
 
     @OnClick(R.id.browser_userimage)
     public void setUserImage() {
-        Bundle bundle=new Bundle();
-        bundle.putSerializable("HashMap" , hash);
-        Navigation.findNavController(Objects.requireNonNull(getView())).navigate(R.id.action_browser_to_analyse , bundle);
+        if (hash==null)
+        {
+            Toast.makeText(getContext(), "Fetching Data . . . ", Toast.LENGTH_SHORT).show();
+        }
+        else{
+            Bundle bundle=new Bundle();
+            bundle.putSerializable("HashMap" , hash);
+            Navigation.findNavController(Objects.requireNonNull(getView())).navigate(R.id.action_browser_to_analyse , bundle);
+
+        }
 
     }
 

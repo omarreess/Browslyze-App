@@ -7,7 +7,7 @@
 
     <string name="user_name">User Name</string>
     <string name="user_mail">Mail Address</string>
-    <string name="signout">Sing out </string>
+    <string name="signout">Logout </string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

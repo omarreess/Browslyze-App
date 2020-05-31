@@ -117,13 +117,13 @@
         android:layout_height="0dp"
         android:layout_marginTop="5dp"
 
-        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
-        app:layout_constraintTop_toTopOf="@+id/guideline" >
+        app:layout_constraintTop_toTopOf="@+id/guideline">
 
         <include
-             layout="@layout/browser_background"
+            layout="@layout/browser_background"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </WebView>

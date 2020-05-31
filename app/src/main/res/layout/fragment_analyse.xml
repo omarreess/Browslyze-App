@@ -53,15 +53,16 @@
 
      <Button
          android:id="@+id/analyse_sign_out_button"
-         android:layout_width="0dp"
+         android:layout_width="wrap_content"
          android:layout_height="0dp"
 
          android:layout_marginTop="25dp"
          android:background="@drawable/rounded_view"
+         android:backgroundTint="@color/black_grey"
          android:fontFamily="@font/gayathrithin"
          android:gravity="center"
          android:text="@string/signout"
-         android:textSize="15dp"
+         android:textSize="13sp"
          app:layout_constraintBottom_toTopOf="@+id/guideline9"
          app:layout_constraintEnd_toStartOf="@+id/guideline11"
          app:layout_constraintStart_toStartOf="@+id/guideline13"
@@ -83,14 +84,16 @@
          android:id="@+id/analyse_username"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_marginLeft="15dp"
+         android:layout_marginStart="65dp"
+
          android:fontFamily="sans-serif-light"
-
          android:text="@string/user_name"
-         android:textStyle="bold"
 
+         android:textStyle="bold"
          app:layout_constraintBottom_toTopOf="@+id/guideline9"
-         app:layout_constraintStart_toStartOf="@+id/guideline12"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.01"
+         app:layout_constraintStart_toStartOf="@+id/analyse_imageuser"
          app:layout_constraintTop_toTopOf="@+id/guideline8"
          app:layout_constraintVertical_bias="0.32999998" />
 
@@ -98,12 +101,11 @@
          android:id="@+id/analyse_usermail"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
-         android:layout_marginLeft="15dp"
          android:layout_marginTop="7dp"
          android:fontFamily="sans-serif-light"
          android:text="@string/user_mail"
          app:layout_constraintBottom_toTopOf="@+id/guideline9"
-         app:layout_constraintStart_toStartOf="@+id/guideline12"
+         app:layout_constraintStart_toStartOf="@+id/analyse_username"
          app:layout_constraintTop_toTopOf="@+id/guideline8"
          app:layout_constraintVertical_bias="0.58000004" />
 

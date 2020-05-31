@@ -25,9 +25,7 @@ public class SplashUI extends Fragment {
 
 
 
-    public SplashUI() {
 
-                    }
 
 
 
@@ -42,7 +40,7 @@ public class SplashUI extends Fragment {
                              Bundle savedInstanceState) {
         View view =inflater.inflate(R.layout.fragment_splash, container, false);
         ButterKnife.bind(this, view);
-
+       getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.black_grey));
          return view;
         //ButterKnife.bind(this, view); we dont need it
     }

@@ -80,6 +80,7 @@ GoogleSignInOptions gso;
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_authentication, container, false);
         ButterKnife.bind(this, view);
+        getActivity().getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrimaryDark));
 
         return view;
     }
