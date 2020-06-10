@@ -38,7 +38,7 @@ Code Features :
 
 Used libraries :
  -  Firebase Authentication , Real-time database , Ads
- -  Navigation
+ -  Navigation Graph
  -  Retrofit 2
  -  Butterknife
  -  Circle imageview
