@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:535061932316:android:7dbdba98cdbd6e6c47f2d9",
         "android_client_info": {
-          "package_name": "com.example.browslyze"
+          "package_name": "com.omaressam.browslyze"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "535061932316-ck8j0d5ann6s5aupfnssmh3bd6h74l0p.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.browslyze",
+            "package_name": "com.omaressam.browslyze",
             "certificate_hash": "d891e7d4e9baaa404167d015bfdd2a110317c4a5"
           }
         },
@@ -47,7 +47,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:535061932316:android:3df77d5a74057ae347f2d9",
         "android_client_info": {
-          "package_name": "com.example.browslyze2"
+          "package_name": "com.omaressam.browslyze2"
         }
       },
       "oauth_client": [
@@ -55,7 +55,7 @@
           "client_id": "535061932316-lebggenn50u6uim27g84gs991ktdl291.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.browslyze2",
+            "package_name": "com.omaressam.browslyze2",
             "certificate_hash": "d891e7d4e9baaa404167d015bfdd2a110317c4a5"
           }
         },
