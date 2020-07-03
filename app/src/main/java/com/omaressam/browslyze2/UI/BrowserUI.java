@@ -1,6 +1,5 @@
-package com.example.browslyze2.UI;
+package com.omaressam.browslyze2.UI;
 
-import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
@@ -21,25 +20,23 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.browslyze2.Logic.Authentication;
-import com.example.browslyze2.Logic.Browser;
- import com.example.browslyze2.Logic.CheckInternet;
-import com.example.browslyze2.Logic.RealtimeDb;
-import com.example.browslyze2.NetworkLayer.ApiRetro;
-import com.example.browslyze2.NetworkLayer.GetType;
-import com.example.browslyze2.R;
+import com.omaressam.browslyze2.Logic.Authentication;
+import com.omaressam.browslyze2.Logic.Browser;
+ import com.omaressam.browslyze2.Logic.CheckInternet;
+import com.omaressam.browslyze2.Logic.RealtimeDb;
+import com.omaressam.browslyze2.NetworkLayer.ApiRetro;
+import com.omaressam.browslyze2.NetworkLayer.GetType;
+import com.omaressam.browslyze2.R;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.HashMap;

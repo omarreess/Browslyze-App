@@ -1,11 +1,8 @@
-package com.example.browslyze2.Logic;
-
-import android.content.Context;
-import android.widget.Toast;
+package com.omaressam.browslyze2.Logic;
 
 import androidx.annotation.NonNull;
 
-import com.example.browslyze2.R;
+import com.omaressam.browslyze2.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

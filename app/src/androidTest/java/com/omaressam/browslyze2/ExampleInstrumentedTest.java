@@ -1,4 +1,4 @@
-package com.example.browslyze2;
+package com.omaressam.browslyze2;
 
 import android.content.Context;
 

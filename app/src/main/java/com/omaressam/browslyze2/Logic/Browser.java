@@ -1,17 +1,11 @@
-package com.example.browslyze2.Logic;
+package com.omaressam.browslyze2.Logic;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Context;
-import android.graphics.Color;
 import android.view.View;
-import android.view.ViewParent;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
-
-import com.example.browslyze2.R;
 
 public class Browser {
 

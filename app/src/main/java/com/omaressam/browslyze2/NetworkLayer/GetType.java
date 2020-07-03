@@ -1,5 +1,5 @@
 
-package com.example.browslyze2.NetworkLayer;
+package com.omaressam.browslyze2.NetworkLayer;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

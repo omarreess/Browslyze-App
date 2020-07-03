@@ -1,4 +1,4 @@
-package com.example.browslyze2.Logic;
+package com.omaressam.browslyze2.Logic;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

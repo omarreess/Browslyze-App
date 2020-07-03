@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splash"
-        android:name="com.example.browslyze2.UI.SplashUI"
+        android:name="com.omaressam.browslyze2.UI.SplashUI"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/analyse"
-        android:name="com.example.browslyze2.UI.AnalyseUI"
+        android:name="com.omaressam.browslyze2.UI.AnalyseUI"
         android:label="fragment_analyse"
         tools:layout="@layout/fragment_analyse" >
         <action
@@ -30,7 +30,7 @@
     </fragment>
     <fragment
         android:id="@+id/browser"
-        android:name="com.example.browslyze2.UI.BrowserUI"
+        android:name="com.omaressam.browslyze2.UI.BrowserUI"
         android:label="fragment_browser"
         tools:layout="@layout/fragment_browser" >
         <action
@@ -39,7 +39,7 @@
     </fragment>
     <fragment
         android:id="@+id/authentication"
-        android:name="com.example.browslyze2.UI.AuthenticationUI"
+        android:name="com.omaressam.browslyze2.UI.AuthenticationUI"
         android:label="fragment_authentication"
         tools:layout="@layout/fragment_authentication" >
         <action

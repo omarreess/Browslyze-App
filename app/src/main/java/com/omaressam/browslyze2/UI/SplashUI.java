@@ -1,8 +1,5 @@
-package com.example.browslyze2.UI;
+package com.omaressam.browslyze2.UI;
 
-import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -14,7 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.browslyze2.R;
+import com.omaressam.browslyze2.R;
 
 import java.util.Objects;
 

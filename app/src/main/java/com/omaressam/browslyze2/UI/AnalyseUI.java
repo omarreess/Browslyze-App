@@ -1,7 +1,5 @@
-package com.example.browslyze2.UI;
+package com.omaressam.browslyze2.UI;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -12,16 +10,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.browslyze2.Logic.Authentication;
-import com.example.browslyze2.Logic.PieCharting;
-import com.example.browslyze2.Logic.RealtimeDb;
-import com.example.browslyze2.R;
+import com.omaressam.browslyze2.Logic.Authentication;
+import com.omaressam.browslyze2.Logic.PieCharting;
+import com.omaressam.browslyze2.Logic.RealtimeDb;
+import com.omaressam.browslyze2.R;
 import com.github.mikephil.charting.charts.PieChart;
-import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.HashMap;
 import java.util.Objects;

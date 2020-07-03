@@ -1,8 +1,6 @@
-package com.example.browslyze2.Logic;
+package com.omaressam.browslyze2.Logic;
 
-import android.content.Context;
 import android.graphics.Color;
-import android.widget.Toast;
 
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;

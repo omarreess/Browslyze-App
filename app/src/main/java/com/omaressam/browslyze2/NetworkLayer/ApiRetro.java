@@ -1,4 +1,4 @@
-package com.example.browslyze2.NetworkLayer;
+package com.omaressam.browslyze2.NetworkLayer;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

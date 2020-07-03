@@ -1,29 +1,24 @@
-package com.example.browslyze2.UI;
+package com.omaressam.browslyze2.UI;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
-import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.browslyze2.Logic.Authentication;
-import com.example.browslyze2.Logic.CheckInternet;
-import com.example.browslyze2.Logic.RealtimeDb;
-import com.example.browslyze2.R;
+import com.omaressam.browslyze2.Logic.Authentication;
+import com.omaressam.browslyze2.Logic.CheckInternet;
+import com.omaressam.browslyze2.Logic.RealtimeDb;
+import com.omaressam.browslyze2.R;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -40,8 +35,6 @@ import java.util.Objects;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-
-import static androidx.core.app.ActivityCompat.startActivityForResult;
 
 
 public class AuthenticationUI extends Fragment {
