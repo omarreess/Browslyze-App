@@ -28,6 +28,7 @@ Code Features :
  - Layouts made with constraint layout and guidelines
  - Fonts used from google fonts  
  - Icons  from matriel.io
+ - Material theme used . 
  - User image represent in  Circle imageview loaded by picasso 
  - pie chart represent user categories    
   - Broadcast receiver for checking internet connection
@@ -37,7 +38,7 @@ Code Features :
 
 Used libraries :
  -  Firebase Authentication , Real-time database , Ads
- -  Navigation
+ -  Navigation Graph
  -  Retrofit 2
  -  Butterknife
  -  Circle imageview
