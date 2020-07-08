@@ -8,7 +8,7 @@ Browslyze is a Simple browser but it analyse categorizes of your urls , So you c
   <img src="https://github.com/omar3sam/Browslyze/blob/master/screenshot_4.png" width="200" />
 </p>
 
-
+App Published on Google Play : https://play.google.com/store/apps/details?id=com.omaressam.browslyze2
 App Features :
  - Authentication using google account
  - Browse your favorite sites
